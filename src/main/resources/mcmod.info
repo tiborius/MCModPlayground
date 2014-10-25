@@ -1,0 +1,16 @@
+[
+{
+  "modid": "MCPlayground",
+  "name": "Tiborius' Playground",
+  "description": "This mod intended to be my playground on the path of learn modding.",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "url": "http://tiborius.com/mc/MCPlayground",
+  "updateUrl": "",
+  "authorList": ["Tiborius"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
