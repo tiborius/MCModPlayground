@@ -1,5 +1,6 @@
 package com.tiborius.MCPlayground.item;
 
+import com.tiborius.MCPlayground.client.creativetab.CreativeTabMCP;
 import com.tiborius.MCPlayground.reference.Reference;
 
 public class ItemTest extends ItemBase {

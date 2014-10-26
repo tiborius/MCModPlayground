@@ -1,3 +1,9 @@
-
 item.mcplayground:testItem.name=Wand of lazyness
-tile.mcplayground:albitBlock.name=Albit block
+
+tile.mcplayground:albitBlock.name=Albit
+
+itemGroup.mcplayground=T's Playground...
+
+keys.mcplayground.category=T's playground
+keys.mcplayground.charge=Charge
+keys.mcplayground.release=Release

@@ -11,6 +11,6 @@ public class ModBlocks {
 
     public static void init()
     {
-        GameRegistry.registerBlock(albitBlock, Reference.BLOCK_ALBIT);
+        GameRegistry.registerBlock(albitBlock, Reference.BLOCK_ALBIT).setHardness(5.0f);
     }
 }

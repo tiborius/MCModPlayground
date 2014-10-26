@@ -1,5 +1,7 @@
 package com.tiborius.MCPlayground.item;
 
+//import com.tiborius.MCPlayground.client.creativetab.CreativeTabMCP;
+import com.tiborius.MCPlayground.client.creativetab.CreativeTabMCP;
 import com.tiborius.MCPlayground.reference.Reference;
 import com.tiborius.MCPlayground.utility.LogHelper;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -9,12 +11,11 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-@GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ItemBase extends Item{
     public ItemBase()
     {
         super();
-
+        this.setCreativeTab(CreativeTabMCP.MCPG_TAB);
     }
 
     private String getUnwrappedUnlocalizedName(String unlocalizedName)

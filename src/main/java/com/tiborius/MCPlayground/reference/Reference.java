@@ -10,7 +10,7 @@ public class Reference {
     public static final String CLIENT_PROXY = "com.tiborius.MCPlayground.proxy.ClientProxy";
     public static final String SERVER_PROXY = "com.tiborius.MCPlayground.proxy.ServerProxy";
     public static final String BLOCKS_GROUP = "blocks";
-    public static final String GUI_FACTORY_CLASS = "com.tiborius.mcplayground.client.gui.GuiFactory";
+    public static final String GUI_FACTORY_CLASS = "com.tiborius.MCPlayground.client.gui.GuiFactory";
 
     public static final String ITEM_TEST = "testItem";
 

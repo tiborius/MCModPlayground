@@ -1,5 +1,6 @@
 package com.tiborius.MCPlayground.block;
 
+import com.tiborius.MCPlayground.client.creativetab.CreativeTabMCP;
 import com.tiborius.MCPlayground.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -15,6 +16,7 @@ public class BlockBase extends Block
     public BlockBase(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabMCP.MCPG_TAB);
     }
 
     public BlockBase()
